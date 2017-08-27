@@ -1,0 +1,28 @@
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	width: 800px;
+	margin: 0 auto;
+}
+
+.cell {
+	width: 20px;
+	height: 20px;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: gray;
+}
+
+.cell.unclicked {
+}
+
+#board-wrapper{
+	display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    width: 1px;
+    grid-gap: 1px;
+}
